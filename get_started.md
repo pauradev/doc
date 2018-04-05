@@ -57,7 +57,7 @@ Now, execute `go get -u ./...` to install the dependencies, then run `go run mai
 ## Live Demo
 
 * Live Demo http://demo.getqor.com/admin
-* Source Code of Live Demo https://github.com/paurudev/qor-example
+* Source Code of Live Demo https://github.com/paurudev/qor-website
 
 ## Next Steps
 
