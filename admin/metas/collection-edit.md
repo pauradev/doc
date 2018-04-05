@@ -48,7 +48,7 @@ type CollectionEditConfig struct {
 
   Template accept a file path to overwrite default *collection edit* template, which usually used when writing plugins to customize collection edit's template.
 
-  Refer [sorting for collection edit](https://github.com/paurudev/sorting/blob/master/sortable_collection.go#L137) as an example.
+  Refer [sorting for collection edit](https://github.com/pauradev/sorting/blob/master/sortable_collection.go#L137) as an example.
 
 * Max
 

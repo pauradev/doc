@@ -2,12 +2,12 @@
 
 BindataFS could be used to compile templates into binary utilizing [go-bindata](https://github.com/jteeuwen/go-bindata)
 
-[![GoDoc](https://godoc.org/github.com/paurudev/bindatafs?status.svg)](https://godoc.org/github.com/paurudev/bindatafs)
+[![GoDoc](https://godoc.org/github.com/pauradev/bindatafs?status.svg)](https://godoc.org/github.com/pauradev/bindatafs)
 
-## Install [BindataFS](https://github.com/paurudev/bindatafs)
+## Install [BindataFS](https://github.com/pauradev/bindatafs)
 
 ```sh
-$ go get -u -f github.com/paurudev/bindatafs/...
+$ go get -u -f github.com/pauradev/bindatafs/...
 ```
 
 Initialize BindataFS for your project, set the path you want to store BindataFS related files, e.g. `config/bindatafs`:
@@ -67,7 +67,7 @@ func main() {
 }
 ```
 
-### Use BindataFS with [QOR Admin](https://github.com/paurudev/admin)
+### Use BindataFS with [QOR Admin](https://github.com/pauradev/admin)
 
 ```go
 import "<your_project>/config/bindatafs"
@@ -78,10 +78,10 @@ func main() {
 }
 ```
 
-### Use BindataFS with [QOR Render](https://github.com/paurudev/render)
+### Use BindataFS with [QOR Render](https://github.com/pauradev/render)
 
 ```go
-import  "github.com/paurudev/render"
+import  "github.com/pauradev/render"
 
 func main() {
   View := render.New()
@@ -89,10 +89,10 @@ func main() {
 }
 ```
 
-### Use BindataFS with [QOR Widget](https://github.com/paurudev/widget)
+### Use BindataFS with [QOR Widget](https://github.com/pauradev/widget)
 
 ```go
-import  "github.com/paurudev/widget"
+import  "github.com/pauradev/widget"
 
 func main() {
   Widgets := widget.New(&widget.Config{DB: db.DB})

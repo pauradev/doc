@@ -36,7 +36,7 @@ type SingleEditConfig struct {
 
   Template could be used to overwrite single edit's template, which usually used when writing plugins to customize single edit's template.
 
-  Refer [sorting for collection edit](https://github.com/paurudev/sorting/blob/master/sortable_collection.go#L137) as an example.
+  Refer [sorting for collection edit](https://github.com/pauradev/sorting/blob/master/sortable_collection.go#L137) as an example.
 
 [1] note: slide-out sheet is not an official [Material Design](https://material.google.com) element, but we think it really helps maintain context when editing!
 

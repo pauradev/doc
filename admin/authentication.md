@@ -25,14 +25,14 @@ func main() {
 }
 ```
 
-Here is an example integrated with [QOR Auth](https://github.com/paurudev/auth) & [QOR Auth Themes](https://github.com/paurudev/auth_themes):
+Here is an example integrated with [QOR Auth](https://github.com/pauradev/auth) & [QOR Auth Themes](https://github.com/pauradev/auth_themes):
 
 ```go
-import "github.com/paurudev/auth_themes/clean"
+import "github.com/pauradev/auth_themes/clean"
 
 var Auth = clean.New(&auth.Config{
   DB:         DB,
-  // User model needs to implement qor.CurrentUser interface (https://godoc.org/github.com/paurudev/qor#CurrentUser) to use it in QOR Admin
+  // User model needs to implement qor.CurrentUser interface (https://godoc.org/github.com/pauradev/qor#CurrentUser) to use it in QOR Admin
   UserModel:  models.User{},
 })
 
@@ -68,7 +68,7 @@ func main() {
 
 ## Authorization
 
-QOR Admin rely on [QOR Roles](https://github.com/paurudev/roles) for [Authorization](https://en.wikipedia.org/wiki/Authorization), Check it out for details.
+QOR Admin rely on [QOR Roles](https://github.com/pauradev/roles) for [Authorization](https://en.wikipedia.org/wiki/Authorization), Check it out for details.
 
 ### Authorization For Resource
 

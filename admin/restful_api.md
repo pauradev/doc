@@ -114,4 +114,4 @@ same as normal Admin site, you could use [Authentication & Authorization](/admin
 and use `Permission` to have [resource level](/admin/resources.md#resource-configuration), [field level](/admin/fields.md#customize-meta) permission control
 
 <a id="transformer"></a>
-[1] note: QOR Admin is using [Transformer](https://github.com/paurudev/admin/blob/master/transformer.go) to convert data from resource to your requested data format as API, it only support `JSON`, `XML` right now, and `XML` only has limitted support yet, you can `GET` data with `XML` format, but can't create/update data with `XML`.
+[1] note: QOR Admin is using [Transformer](https://github.com/pauradev/admin/blob/master/transformer.go) to convert data from resource to your requested data format as API, it only support `JSON`, `XML` right now, and `XML` only has limitted support yet, you can `GET` data with `XML` format, but can't create/update data with `XML`.

@@ -37,7 +37,7 @@ by default, *select* will pop up a list for user to select, if this set to `true
 
 `SelectionTemplate` accept a file path to overwrite default *select* template, which usually used when writing plugins to customize select one's template.
 
-Refer [sortable select many](https://github.com/paurudev/sorting/blob/master/sortable_collection.go#L111) as an example.
+Refer [sortable select many](https://github.com/pauradev/sorting/blob/master/sortable_collection.go#L111) as an example.
 
 ### SelectMode
 

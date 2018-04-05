@@ -36,11 +36,11 @@ subHeaderRes.Meta(&admin.Meta{Name: "Text"})
 subHeaderRes.Meta(&admin.Meta{Name: "Color"})
 
 // Important: configure element's template path
-banner_editor.RegisterViewPath("github.com/paurudev/banner_editor/test/views")
+banner_editor.RegisterViewPath("github.com/pauradev/banner_editor/test/views")
 
 banner_editor.RegisterElement(&banner_editor.Element{
   Name:     "Button",
-  Template: "button", // Looking: https://github.com/paurudev/banner_editor/blob/master/test/views/button.tmpl
+  Template: "button", // Looking: https://github.com/pauradev/banner_editor/blob/master/test/views/button.tmpl
   Resource: buttonRes,
   Context: func(c *admin.Context, r interface{}) interface{} {
     setting := r.(QorBannerEditorSettingInterface).GetSerializableArgument(r.(QorBannerEditorSettingInterface)).(*buttonSetting)

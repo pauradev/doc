@@ -1,8 +1,8 @@
 # SEO
 
-The [SEO](https://github.com/paurudev/seo) library allows for the management and injection of dynamic data into HTML tags for the purpose of Search Engine Optimisation. Using the [QOR Admin](../chapter2/setup.md) interface, an administrator can easily manage the content of an HTML page's title, description, and meta tags.
+The [SEO](https://github.com/pauradev/seo) library allows for the management and injection of dynamic data into HTML tags for the purpose of Search Engine Optimisation. Using the [QOR Admin](../chapter2/setup.md) interface, an administrator can easily manage the content of an HTML page's title, description, and meta tags.
 
-[![GoDoc](https://godoc.org/github.com/paurudev/seo?status.svg)](https://godoc.org/github.com/paurudev/seo)
+[![GoDoc](https://godoc.org/github.com/pauradev/seo?status.svg)](https://godoc.org/github.com/pauradev/seo)
 
 ## Definition
 

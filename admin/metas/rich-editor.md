@@ -23,10 +23,10 @@ type RichEditorConfig struct {
 
 ### AssetManager
 
-File/Image uploading support, first, create an asset manager provided by [Media library](https://github.com/paurudev/media), then configure it to be attached to a Rich Editor.
+File/Image uploading support, first, create an asset manager provided by [Media library](https://github.com/pauradev/media), then configure it to be attached to a Rich Editor.
 
 ```go
-import "github.com/paurudev/media/asset_manager"
+import "github.com/pauradev/media/asset_manager"
 
 // Add Asset Manager, for rich editor
 assetManager := Admin.AddResource(&asset_manager.AssetManager{}, &admin.Config{Invisible: true})
@@ -36,7 +36,7 @@ product.Meta(&admin.Meta{Name: "Description", Config: &admin.RichEditorConfig{As
 
 ### DisableHTMLSanitizer
 
-By default, rich editor's content will be filtered by [QOR's default HTMLSanitizer powered by bluemonday](https://godoc.org/github.com/paurudev/qor/utils#HTMLSanitizer) before save, set it to `true` to skip it.
+By default, rich editor's content will be filtered by [QOR's default HTMLSanitizer powered by bluemonday](https://godoc.org/github.com/pauradev/qor/utils#HTMLSanitizer) before save, set it to `true` to skip it.
 
 ### Plugins
 

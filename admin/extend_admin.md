@@ -6,11 +6,11 @@ QOR Admin aims to be a flexible, easily extendable, and highly configurable admi
 
 ### Extend QOR Resource
 
-When added a struct to QOR Admin, QOR Admin will check if this struct and its embedded structs implemented interface [ConfigureResourceBeforeInitializeInterface](https://godoc.org/github.com/paurudev/qor/resource#ConfigureResourceBeforeInitializeInterface) or [ConfigureResourceInterface](https://godoc.org/github.com/paurudev/qor/resource#ConfigureResourceInterface)
+When added a struct to QOR Admin, QOR Admin will check if this struct and its embedded structs implemented interface [ConfigureResourceBeforeInitializeInterface](https://godoc.org/github.com/pauradev/qor/resource#ConfigureResourceBeforeInitializeInterface) or [ConfigureResourceInterface](https://godoc.org/github.com/pauradev/qor/resource#ConfigureResourceInterface)
 
-The [`ConfigureResourceBeforeInitializeInterface`](https://godoc.org/github.com/paurudev/qor/resource#ConfigureResourceBeforeInitializeInterface) interface will be invoked before initializing the resource.
+The [`ConfigureResourceBeforeInitializeInterface`](https://godoc.org/github.com/pauradev/qor/resource#ConfigureResourceBeforeInitializeInterface) interface will be invoked before initializing the resource.
 
-The [`ConfigureResourceInterface`](https://godoc.org/github.com/paurudev/qor/resource#ConfigureResourceInterface) interface will be invoked after initializing the resource.
+The [`ConfigureResourceInterface`](https://godoc.org/github.com/pauradev/qor/resource#ConfigureResourceInterface) interface will be invoked after initializing the resource.
 
 So when `AddResource`, the workflow looks like:
 
@@ -32,7 +32,7 @@ user := Admin.AddResource(&User{})
 // 3, run User.ConfigureQorResource(user)
 ```
 
-This is helpful when writing QOR Plugins, most plugins are written based on that, for example: [QOR L10n](https://github.com/paurudev/l10n), [QOR Publish2](https://github.com/paurudev/publish2)
+This is helpful when writing QOR Plugins, most plugins are written based on that, for example: [QOR L10n](https://github.com/pauradev/l10n), [QOR Publish2](https://github.com/pauradev/publish2)
 
 ### Overwrite CURD Handler
 
@@ -56,7 +56,7 @@ res.DeleteHandler = func(result interface{}, context *qor.Context) error {
 }
 ```
 
-Checkout https://github.com/paurudev/qor/blob/master/resource/crud.go to get some hints from default implementations
+Checkout https://github.com/pauradev/qor/blob/master/resource/crud.go to get some hints from default implementations
 
 Generate [nested RESTFul API](/admin/restful_api.md#nested-api) is using this feature.
 
@@ -117,7 +117,7 @@ Then create templates `meta/index/my-fancy-meta-type.tmpl`, `meta/show/my-fancy-
 
 `meta/form/my-fancy-meta-type.tmpl` will be used when rendering show/edit page, this file must exist to render the meta correctly.
 
-Check out [QOR Slug](http://github.com/paurudev/slug) as an example.
+Check out [QOR Slug](http://github.com/pauradev/slug) as an example.
 
 ### Create Meta Config
 
@@ -139,7 +139,7 @@ func (FancyMetaConfig) ConfigureQorMeta(metaor resource.Metaor) {
 }
 ```
 
-Refer [Rich Editor Config](https://github.com/paurudev/admin/blob/master/meta_rich_editor.go) as example.
+Refer [Rich Editor Config](https://github.com/pauradev/admin/blob/master/meta_rich_editor.go) as example.
 
 ### Default Meta Configor
 
@@ -172,7 +172,7 @@ Admin.RegisterMetaConfigor("date", func(meta *Meta) {
 })
 ```
 
-Check [Meta Configors](https://github.com/paurudev/admin/blob/master/meta_configors.go) for more examples.
+Check [Meta Configors](https://github.com/pauradev/admin/blob/master/meta_configors.go) for more examples.
 
 ## Customize View
 
@@ -196,7 +196,7 @@ And you can only load an HTML snippet for your index page, by creating a templat
 
 ![view actions](view-actions.png)
 
-[QOR Activity](https://github.com/paurudev/activity), [QOR Publish2](https://github.com/paurudev/publish2) are built based on this strategy.
+[QOR Activity](https://github.com/pauradev/activity), [QOR Publish2](https://github.com/pauradev/publish2) are built based on this strategy.
 
 ### View Actions for Header
 
@@ -204,7 +204,7 @@ If you put a template into `{qor view paths}/actions/header`, it will be loaded 
 
 ![view actions](top-actions.png)
 
-[QOR Help](https://github.com/paurudev/help), [QOR Notification](https://github.com/paurudev/notification) are built based on it.
+[QOR Help](https://github.com/pauradev/help), [QOR Notification](https://github.com/pauradev/notification) are built based on it.
 
 ## Router
 

@@ -4,7 +4,7 @@
 
 ### Application Level Validations
 
-  If you want to have some global validations for your application, you could use [QOR Validation](https://github.com/paurudev/validations), it is a GORM extension, it could be used to validate models when creating, updating.
+  If you want to have some global validations for your application, you could use [QOR Validation](https://github.com/pauradev/validations), it is a GORM extension, it could be used to validate models when creating, updating.
 
 ### Admin Level Validations
 
