@@ -2,7 +2,7 @@
 
 Worker runs a single *Job* in the background, it can do so immediately or at a scheduled time.
 
-Once registered with [QOR Admin](http://github.com/qor/admin), [Worker](https://github.com/qor/worker) will provide a `Workers` section in the navigation tree, containing pages for listing and managing the following aspects of Workers:
+Once registered with [QOR Admin](http://github.com/paurudev/admin), [Worker](https://github.com/paurudev/worker) will provide a `Workers` section in the navigation tree, containing pages for listing and managing the following aspects of Workers:
 
   - All *Jobs*.
   - Running: *Jobs* that are currently running.
@@ -12,12 +12,12 @@ Once registered with [QOR Admin](http://github.com/qor/admin), [Worker](https://
 
 The admin interface for a schedulable *Job* will have an additional `Schedule Time` input, with which administrators can set the scheduled date and time.
 
-[![GoDoc](https://godoc.org/github.com/qor/worker?status.svg)](https://godoc.org/github.com/qor/worker)
+[![GoDoc](https://godoc.org/github.com/paurudev/worker?status.svg)](https://godoc.org/github.com/paurudev/worker)
 
 ## Usage
 
 ```go
-import "github.com/qor/worker"
+import "github.com/paurudev/worker"
 
 func main() {
   // Define Worker

@@ -10,15 +10,15 @@ For example, say you set the site name to `Qor Demo`, QOR Admin will look up `{q
 
 When QOR Admin render pages, it looks up templates with [AssetFS](/admin/general.md#assetfs).
 
-[A default implemention](https://github.com/qor/assetfs/blob/master/filesystem.go) of `AssetFS` is looking up templates from the filesystem with pre-registered view paths.
+[A default implemention](https://github.com/paurudev/assetfs/blob/master/filesystem.go) of `AssetFS` is looking up templates from the filesystem with pre-registered view paths.
 
 it includes:
 
 * {current_path}/app/views/qor
-* {current_path}/vendor/github.com/qor/admin/views
-* $GOPATH/src/github.com/qor/admin/views
+* {current_path}/vendor/github.com/paurudev/admin/views
+* $GOPATH/src/github.com/paurudev/admin/views
 
-Checkout [AssetFS](http://github.com/qor/assetfs) for more details
+Checkout [AssetFS](http://github.com/paurudev/assetfs) for more details
 
 ## Themes
 
@@ -37,7 +37,7 @@ This means `{qor view paths}/themes/fancy/assets/stylesheets/fancy.css` and `{qo
 
 ## Customize templates
 
-QOR Admin is using go templates to render admin interface, default templates could be found from https://github.com/qor/admin/tree/master/views
+QOR Admin is using go templates to render admin interface, default templates could be found from https://github.com/paurudev/admin/tree/master/views
 
 You might want to customize some of them based on your requirements
 

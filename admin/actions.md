@@ -1,6 +1,6 @@
 # Action
 
-[Action](https://github.com/qor/admin/blob/master/action.go) provides a way to make shortcut functions based on [QOR Admin](/admin/README.md) UI.
+[Action](https://github.com/paurudev/admin/blob/master/action.go) provides a way to make shortcut functions based on [QOR Admin](/admin/README.md) UI.
 
 ## Usage
 

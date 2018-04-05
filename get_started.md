@@ -1,6 +1,6 @@
 # Get Started
 
-Although [QOR Admin](admin/README.md) is just a component of [QOR](https://github.com/qor/qor) but we believe that a visible UI could help you getting a sense of [QOR](https://github.com/qor/qor) easily. So let's set up a simple CMS by [QOR Admin](admin/README.md).
+Although [QOR Admin](admin/README.md) is just a component of [QOR](https://github.com/paurudev/qor) but we believe that a visible UI could help you getting a sense of [QOR](https://github.com/paurudev/qor) easily. So let's set up a simple CMS by [QOR Admin](admin/README.md).
 
 First, create a `main.go` with
 
@@ -10,8 +10,8 @@ package main
 import (
   "fmt"
   "net/http"
-  "github.com/qor/qor"
-  "github.com/qor/admin"
+  "github.com/paurudev/qor"
+  "github.com/paurudev/admin"
   "github.com/jinzhu/gorm"
   _ "github.com/jinzhu/gorm/dialects/sqlite"
 )
@@ -57,8 +57,8 @@ Now, execute `go get -u ./...` to install the dependencies, then run `go run mai
 ## Live Demo
 
 * Live Demo http://demo.getqor.com/admin
-* Source Code of Live Demo https://github.com/qor/qor-example
+* Source Code of Live Demo https://github.com/paurudev/qor-example
 
 ## Next Steps
 
-Now you have a basic understanding of QOR Admin, you can dig it deeper in [General Configuration](/admin/general.md) or check other components of [QOR](https://github.com/qor/qor).
+Now you have a basic understanding of QOR Admin, you can dig it deeper in [General Configuration](/admin/general.md) or check other components of [QOR](https://github.com/paurudev/qor).
