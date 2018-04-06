@@ -12,8 +12,8 @@ import (
   "net/http"
   "github.com/pauradev/qor"
   "github.com/pauradev/admin"
-  "github.com/jinzhu/gorm"
-  _ "github.com/jinzhu/gorm/dialects/sqlite"
+  "github.com/pauradev/gorm"
+  _ "github.com/pauradev/gorm/dialects/sqlite"
 )
 
 // Define a GORM-backend model

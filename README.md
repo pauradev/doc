@@ -4,7 +4,7 @@
 
 Typically, a [QOR](https://github.com/pauradev/qor)-based system will revolve around [QOR Admin](/admin/README.md), which is the CMS component. [QOR Admin](/admin/README.md) facilitates easy database and media content management and is not bound to a single database technology.
 
-The bulk of QOR's multifaceted capabilities lie in the plugins, they can be used independently but their super-powers shine when used together. Many of the plugins utilize [GORM](https://github.com/jinzhu/gorm) as ORM.
+The bulk of QOR's multifaceted capabilities lie in the plugins, they can be used independently but their super-powers shine when used together. Many of the plugins utilize [GORM](https://github.com/pauradev/gorm) as ORM.
 
 We, [The Plant](https://theplant.jp), utilise [QOR](https://github.com/pauradev/qor) on our own projects and are interested to hear about yours and your experience in using [QOR](https://github.com/pauradev/qor) - there are a number of ways to contribute and communicate with us and the [QOR](https://github.com/qor) community:
 

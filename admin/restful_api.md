@@ -75,7 +75,7 @@ It will generate API like:
 
 ## Nested API
 
-You have to have valid [GORM](http://github.com/jinzhu/gorm) relationship to register nested resource, for example:
+You have to have valid [GORM](http://github.com/pauradev/gorm) relationship to register nested resource, for example:
 
 ```go
 type User struct {
